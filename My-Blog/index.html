@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://images.pexels.com/photos/220072/pexels-photo-220072.jpeg?cs=srgb&dl=abstract-art-background-220072.jpg&fm=jpg');
+      background-size: cover;
+      color: white;
+    }
+
+    body{
+      font-family: helvetica;
+    }
+
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 100%;
+      width: 200px;
+      height: 200px;
+    }
+    ul {
+      list-style-type: disk;
+    }
+    li.a {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+      ul {
+        list-style-type: disk;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="img-circle" src="http://i233.photobucket.com/albums/ee2/SMEXiiGURL57/Head%20shot/cutmypic.png">
+    <h1>Jeannie's Blog</h1>
+    <ul>
+      <li class="a"><a href="#">Resume</a></li>
+      <li class="a"><a href="#">Essays</a></li>
+      <li class="a"><a href="#">Resources</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Squeezing in Gym Time During the Busy Week</h2>
+
+    <p>Gym time is such a powerful day in my mind. Gym time allows for the perfect opportunity to shed daily tensions and fight anxiety, ultimately improving your brain's function to take in more information and focus on complex tasks. I'm a huge supporter of a lazy day after a full day of work, but sometimes we just need to take time out of some days in the work week to workout at the gym or run in nature, making this notion of overworking seem impossible.
+    </p>
+    <p>I have found that I feel my best and get the most out of my day when I go to the gym after work. I try to take some time to exercise in what little time I have between working full-time. Even when I don't exercise consistently, I know if I just squeeze some gym time to lift some heavy weights during my week, the remainder of the day will be happy and productive.
+    </p>
+    <p> If you want to make the most out of your work week and don't have friends to go to the gym with after work, here are a few things I do by myself.
+    </p>
+    <h4> If I go to the gym: </h4>
+    <ul>
+      <li>I drink a cup of coffee 2 hours before I go to the gym</li>
+      <li>I go to the gym for at least 60 minutes.</li>
+      <li>On Mondays and Thursdays, I hit the: </li>
+        <ul>
+          <li>Hamstrings Machine</li>
+          <li>Squat Rack</li>
+          <li>Triceps Machine</li>
+          <li>Dumbells for shoulder gains</li>
+          <li>Quads Machine</li>
+          <li>Back row machine</li>
+        </ul>
+      <li>On Wednesdays and Fridays, I work out the: </li>
+        <ul>
+          <li>Back using the lat pulldown bar</li>
+          <li>Biceps</li>
+          <li>Shoulders</li>
+          <li>Triceps</li>
+        </ul>
+      <li>On the way home I turn on a podcast on the way home or listen to relaxing music to calm my mind.</li>
+    </ul>
+    <h4> If I elect to not go to the gym</h4>
+    <ul>
+      <li>Hang out with some friends</li>
+      <li>I read an inspiring book</li>
+      <li>I meditate with some relaxing music</li>
+      <li>I get cozy on my bed and watch my favorite show on netflix</li>
+    </ul>
+  <p>My perfect work week allows me to workout, but the frequency of when I go to the gym tends to vary depending on my workload, or plans I have with my friends.
+  </p>
+  <p>The best way to create that perfect work life balance is to be in tune with your body and allow yourself to rest or give yourself that push to go to the gym. Push yourself, but don’t kill yourself in the process.
+  </p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
